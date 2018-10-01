@@ -36,7 +36,6 @@ header{
 
 .navLinks {
     float: right;
-    height: 100%;
     line-height: 70px;
 }
 
@@ -49,7 +48,7 @@ header{
 }
 
 .navLinks a:hover{
-    background-color: #666666;
+    background-color: #4aaaa5;
     color: white;
 }
 
@@ -74,6 +73,7 @@ header{
 .mainContentHeader {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 0px;
 }
 
 .myPic {
@@ -84,7 +84,7 @@ header{
 }
 
 .content{
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 footer {
