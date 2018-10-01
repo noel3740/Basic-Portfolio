@@ -10,7 +10,7 @@ body {
 }
 
 header{
-    height: 85px;
+    height: 70px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     min-width: 960px;
@@ -25,7 +25,7 @@ header{
 .yourNameSection{
     float: left;
     height: 100%;
-    line-height: 36px;
+    line-height: 20px;
     background-color: #4aaaa5;
     color:white;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -37,15 +37,13 @@ header{
 .navLinks {
     float: right;
     height: 100%;
-    line-height: 86px;
+    line-height: 70px;
 }
 
 .navLinks a {
-    height: 100%;
-    border-right: 1px solid #666666;
+    border-right: 1px solid #cccccc;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
-    height: 50px;
     color: #777777;
     margin-left: -5px;
 }
