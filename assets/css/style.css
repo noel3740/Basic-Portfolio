@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../images/gravel.png");
     color: #777777;
@@ -74,6 +75,8 @@ header{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 0px;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
 }
 
 .myPic {
@@ -81,10 +84,6 @@ header{
     width: 150px;
     height: 150px;
     padding-right: 15px;
-}
-
-.content{
-    padding-top: 5px;
 }
 
 footer {
@@ -99,4 +98,38 @@ footer {
 
 .copyRight {
     padding-top: 15px;
+}
+
+.labelInputPair {
+    padding-top: 10px;
+}
+
+.labelInputPair input, .labelInputPair textarea{
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin: 8px 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.labelInputPair textarea{
+    height: 150px;
+}
+
+.buttonDiv {
+    padding-top: 10px;
+}
+
+.buttonDiv input[type="submit"] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
