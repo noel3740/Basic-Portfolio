@@ -145,7 +145,8 @@ footer {
 .block {
     height: 150px;
     width: 150px;
-    float: left;
+    display: flex;
+    align-items: flex-end;
     margin: 0px 20px 20px 0px;
 }
 
@@ -154,10 +155,18 @@ footer {
     font-size: 13px;
     background-color: #4aaaa5;
     height: 35px;
-    padding-top: 8px;
     box-sizing: border-box;
-    margin-top: calc(100% - 40px);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.blockContainer{
+    display: flex;
+    align-items: flex-start;
 }
 
 .hangmanDiv {
