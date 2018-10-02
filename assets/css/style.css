@@ -1,9 +1,18 @@
-
 body {
     background-image: url("../images/gravel.png");
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0px;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body, input, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
 }
 
 .wrapper{
@@ -26,18 +35,21 @@ header{
 .yourNameSection{
     float: left;
     height: 100%;
-    line-height: 20px;
     background-color: #4aaaa5;
     color:white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 25px;
     padding: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .navLinks {
     float: right;
-    line-height: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navLinks a {
@@ -73,7 +85,6 @@ header{
 
 .mainContentHeader {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 0px;
     border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
@@ -108,9 +119,6 @@ footer {
     width: 100%;
     border: 1px solid #cccccc;
     margin: 8px 0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #777777;
     padding: 10px 15px;
     box-sizing: border-box;
 }
@@ -131,7 +139,6 @@ footer {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
