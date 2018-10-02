@@ -153,6 +153,22 @@ footer {
     color: white;
 }
 
-.hangmanDiv, .rpgGameDiv, .triviaGameDiv, .rutgersWidgetDiv, .rockPaperScissorsDiv {
-    background-image: url("../images/150x150placeholder.png");
+.hangmanDiv {
+    background-image: url("../images/baldeagle.jpg")
+}
+
+.rpgGameDiv {
+    background-image: url("../images/cow.jpg")
+}
+
+.triviaGameDiv {
+    background-image: url("../images/dog.jpg")
+}
+
+.rutgersWidgetDiv {
+    background-image: url("../images/multicolor-drop-2-1056473.jpg")
+}
+
+.rockPaperScissorsDiv {
+    background-image: url("../images/tropical.jpg")
 }
